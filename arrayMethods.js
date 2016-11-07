@@ -46,11 +46,15 @@ gemBox.splice(5, 7, 'Sapphire');
 upToTen.splice(upToTen.length - 2, 0, 3, 4, 5, 6, 7, 8);
 
 // why not both
-brownOnly.splice(1, 5, "brown", "brown", "brown");
+brownOnly.splice(1, 5, 'brown', 'brown', 'brown');
 
 // `orderedValues` array has all numbers between 1 and 10, has a length of 10
 var orderedValuesNewLength = orderedValues.unshift(1, 2, 3);
 
 // `randomThingsArray` is the result of joining the variables `genericNumberArray` and `colors`
 var randomThingsArray = genericNumberArray.concat(colors);
-var updatedOrders = orderQueue.concat([{takeOut: "XL Cheese Pizza"}, {takeOut: "Hot Diggity Dog"}]);
+var updatedOrders = orderQueue.concat([{takeOut: 'XL Cheese Pizza'}, {takeOut: 'Hot Diggity Dog'}]);
+
+// `sentence` stores the result of calling join on the variable `scrambledWords`
+var sentence = scrambledWords.join(' ');
+var myFruits = fruitCollection.join(' + ');
