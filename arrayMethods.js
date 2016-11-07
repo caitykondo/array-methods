@@ -50,3 +50,7 @@ brownOnly.splice(1, 5, "brown", "brown", "brown");
 
 // `orderedValues` array has all numbers between 1 and 10, has a length of 10
 var orderedValuesNewLength = orderedValues.unshift(1, 2, 3);
+
+// `randomThingsArray` is the result of joining the variables `genericNumberArray` and `colors`
+var randomThingsArray = genericNumberArray.concat(colors);
+var updatedOrders = orderQueue.concat([{takeOut: "XL Cheese Pizza"}, {takeOut: "Hot Diggity Dog"}]);
