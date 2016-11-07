@@ -62,3 +62,6 @@ var myFruits = fruitCollection.join(' + ');
 // slice
 var favoriteFriends = friends.slice(1,3);
 var owesMoney = friends.slice(3,6);
+
+// toString
+var monthNameString = monthNames.toString();
