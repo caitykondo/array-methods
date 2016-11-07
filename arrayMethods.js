@@ -23,3 +23,6 @@ nameArray.push('caity', 'pizza');
 
 // all the missing numbers up to and including 10 to genericNumberArray
 genericNumberArray.push(6,7,8,9,10);
+
+// removes the last element of an array
+var popResult = colors.pop();
