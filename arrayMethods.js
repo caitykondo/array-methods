@@ -38,6 +38,9 @@ nextOrder = orderQueue.shift();
 mixedNums.sort();
 mixedWords.sort();
 
-// remove elements so fruitCollection only has fruits
+// remove elements so fruitCollection only has fruits removing elements
 var notFruit = fruitCollection.splice(1, 3);
 gemBox.splice(5, 7, 'Sapphire');
+
+// removing elements
+upToTen.splice(upToTen.length - 2, 0, 3, 4, 5, 6, 7, 8);
