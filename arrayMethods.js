@@ -30,3 +30,6 @@ var popResult = colors.pop();
 // reverse scrambledWords
 scrambledWords.reverse();
 phoneNumber.reverse();
+
+// shift to remove first element of array
+nextOrder = orderQueue.shift();
