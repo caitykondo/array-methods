@@ -47,3 +47,6 @@ upToTen.splice(upToTen.length - 2, 0, 3, 4, 5, 6, 7, 8);
 
 // why not both
 brownOnly.splice(1, 5, "brown", "brown", "brown");
+
+// `orderedValues` array has all numbers between 1 and 10, has a length of 10
+var orderedValuesNewLength = orderedValues.unshift(1, 2, 3);
