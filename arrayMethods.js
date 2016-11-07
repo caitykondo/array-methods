@@ -42,5 +42,8 @@ mixedWords.sort();
 var notFruit = fruitCollection.splice(1, 3);
 gemBox.splice(5, 7, 'Sapphire');
 
-// removing elements
+// removing elements (working from end of array)
 upToTen.splice(upToTen.length - 2, 0, 3, 4, 5, 6, 7, 8);
+
+// why not both
+brownOnly.splice(1, 5, "brown", "brown", "brown");
