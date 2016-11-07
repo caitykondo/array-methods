@@ -26,3 +26,7 @@ genericNumberArray.push(6,7,8,9,10);
 
 // removes the last element of an array
 var popResult = colors.pop();
+
+// reverse scrambledWords
+scrambledWords.reverse();
+phoneNumber.reverse();
