@@ -33,3 +33,7 @@ phoneNumber.reverse();
 
 // shift to remove first element of array
 nextOrder = orderQueue.shift();
+
+// sort mixedNums array
+mixedNums.sort();
+mixedWords.sort();
