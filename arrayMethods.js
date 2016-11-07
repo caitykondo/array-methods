@@ -17,59 +17,55 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
 
-// Push your First and Last Name into an empty array
+// push()
 var nameArray = [];
 nameArray.push('caity', 'pizza');
-
-// all the missing numbers up to and including 10 to genericNumberArray
 genericNumberArray.push(6,7,8,9,10);
 
-// removes the last element of an array
+// pop()
 var popResult = colors.pop();
 
-// reverse scrambledWords
+// reverse()
 scrambledWords.reverse();
 phoneNumber.reverse();
 
-// shift to remove first element of array
+// shift()
 nextOrder = orderQueue.shift();
 
-// sort mixedNums array
+// sort()
 mixedNums.sort();
 mixedWords.sort();
 
-// remove elements so fruitCollection only has fruits removing elements
+// splice() removing
 var notFruit = fruitCollection.splice(1, 3);
 gemBox.splice(5, 7, 'Sapphire');
-
-// removing elements (working from end of array)
+// splice() adding
 upToTen.splice(upToTen.length - 2, 0, 3, 4, 5, 6, 7, 8);
-
-// why not both
+// splice() adding and removing
 brownOnly.splice(1, 5, 'brown', 'brown', 'brown');
 
-// `orderedValues` array has all numbers between 1 and 10, has a length of 10
+// unshift()
 var orderedValuesNewLength = orderedValues.unshift(1, 2, 3);
 
-// `randomThingsArray` is the result of joining the variables `genericNumberArray` and `colors`
+// concat()
 var randomThingsArray = genericNumberArray.concat(colors);
 var updatedOrders = orderQueue.concat([{takeOut: 'XL Cheese Pizza'}, {takeOut: 'Hot Diggity Dog'}]);
 
-// `sentence` stores the result of calling join on the variable `scrambledWords`
+// join()
 var sentence = scrambledWords.join(' ');
 var myFruits = fruitCollection.join(' + ');
 
-// slice
+// slice()
 var favoriteFriends = friends.slice(1,3);
 var owesMoney = friends.slice(3,6);
 
-// toString
+// toString()
 var monthNameString = monthNames.toString();
 
-// indexOf
+// indexOf()
 var favoriteColor = colors.indexOf('Red');
 var favoriteEvenNumber = mixedNums.indexOf(76);
 
-// lastIndexOf
+// lastIndexOf()
 var lastNine = bulkNumbers.lastIndexOf(9);
 var lastFive = bulkNumbers.lastIndexOf(5);
