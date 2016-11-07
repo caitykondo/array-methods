@@ -58,3 +58,7 @@ var updatedOrders = orderQueue.concat([{takeOut: 'XL Cheese Pizza'}, {takeOut: '
 // `sentence` stores the result of calling join on the variable `scrambledWords`
 var sentence = scrambledWords.join(' ');
 var myFruits = fruitCollection.join(' + ');
+
+// slice
+var favoriteFriends = friends.slice(1,3);
+var owesMoney = friends.slice(3,6);
